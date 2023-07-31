@@ -30,7 +30,7 @@ git clone https://github.com/Dixit-Patel-1990/multi-container-docker.git
 docker-compose -f docker-compose-dev.yml up --build
 ```
 
-In the command above we are telling docker, to create containers from docker-compse-dev.yml file.
+In the command above we are telling docker, to create containers from docker-compose-dev.yml file.
 
     1. By default docker build command expects "Dockerfile" that we do not have on PWD so we explicitly need to tell docker by "-f" flag that use "docker-compose-dev.yml" file.
 
